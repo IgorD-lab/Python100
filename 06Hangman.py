@@ -1,9 +1,9 @@
 import random
-from hangman_words import word_list
-from art import stages, logo
+from resources.hangman_words import word_list
+from resources.art import stages, logoHangman
 
 # Initial setup
-print(logo)
+print(logoHangman)
 correct_guesses = []
 wrong_guesses = []
 lives = 6
