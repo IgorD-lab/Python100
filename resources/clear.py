@@ -1,4 +1,4 @@
-def clear_t():
+def clear():
     import os
     clear = lambda: os.system('cls')
     clear()
