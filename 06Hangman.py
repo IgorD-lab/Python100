@@ -16,7 +16,7 @@ for i in word:
     correct_guesses.append("_")
 
 # Guessing
-while end_of_game == False:
+while not end_of_game:
     guess = input("Guess a letter: ").lower()
     
     if guess in correct_guesses or wrong_guesses:
