@@ -67,7 +67,7 @@ def draw_spirograph(size_of_gap):
 def paint():
     import colorgram
 
-    # colors = colorgram.extract("./resources/hirst.jpg", 31)
+    # colors = colorgram.extract("./resources/images/hirst.jpg", 31)
     #
     # list_colors = []
     #

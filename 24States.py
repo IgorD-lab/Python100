@@ -18,7 +18,7 @@ guessed_states = []
 state_dict = pandas.read_csv("resources/StatesGame/50_states.csv")
 
 while len(guessed_states) < 50:
-    screen.title
+    screen.title = "hello"
     answer_state = screen.textinput(title=f"{len(guessed_states)}/50 States", prompt="What's another state's name?").title()
     
     if answer_state == "exit" or "quit" or "cancel" or "q" or "leave":
