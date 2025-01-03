@@ -1,5 +1,6 @@
 from tkinter import *
 import math
+
 # ---------------------------- CONSTANTS ------------------------------- #
 PINK = "#e2979c"
 RED = "#e7305b"
@@ -12,7 +13,8 @@ LONG_BREAK_MIN = 20
 reps = 0
 timer = None
 
-# ---------------------------- TIMER RESET ------------------------------- # 
+
+# ---------------------------- TIMER RESET ------------------------------- #
 
 def reset_timer():
     window.after_cancel(timer)
@@ -52,7 +54,7 @@ def count_down(count):
 
     # Update the timer text on the canvas
     canvas.itemconfig(timer_text, text=f"{count_min:02d}:{count_sec:02d}")
-    
+
     # If the countdown is not finished, continue
     if count > 0:
         global timer
@@ -74,7 +76,6 @@ window = Tk()
 window.title("Pomodoro")
 window.config(padx=100, pady=50, bg=YELLOW)
 
-
 title_label = Label(text="Timer", fg=GREEN, bg=YELLOW, font=(FONT_NAME, 50))
 title_label.grid(column=1, row=0)
 
@@ -92,6 +93,5 @@ reset_button.grid(column=2, row=2)
 
 check_marks = Label(fg=GREEN, bg=YELLOW)
 check_marks.grid(column=1, row=3)
-
 
 window.mainloop()
