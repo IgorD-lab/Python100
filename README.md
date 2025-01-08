@@ -1,2 +1,5 @@
-Will periodically add some random python scripts that I make untill I reach 100+.  
-Scripts will increase in complexity with each update.
+# Python Scripts Collection
+
+I'm building a collection of 100+ Python scripts, starting simple and getting more advanced as I learn. 
+
+*Note:* There's also an Excel sheet in the repo with Python job market trends—feel free to check it out if you find it useful!
