@@ -17,8 +17,8 @@ import smtplib
 # 4. Update birthdays.csv to contain today's month and day.
 # ---------------------------------------
 
-MY_EMAIL = "YOUR EMAIL"
-MY_PASSWORD = "YOUR PASSWORD"
+MY_EMAIL = "EMAIL"
+MY_PASSWORD = "EMAIL PASSWORD"
 
 today = datetime.now()
 today_tuple = (today.month, today.day)
