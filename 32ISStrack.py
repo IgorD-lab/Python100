@@ -53,6 +53,6 @@ while True:
         connection.login(MY_EMAIL, MY_PASSWORD)
         connection.sendmail(
             from_addr=MY_EMAIL,
-            to_addrs=MY_EMAIL,
+            to_addr=MY_EMAIL,
             msg="Subject: Look Up \n\nThe ISS is above you."
         )
