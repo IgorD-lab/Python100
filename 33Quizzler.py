@@ -1,0 +1,1 @@
+# go to -> resources/quizzler.py - upgraded version of 16Quizz.py with triivia True/False questions
