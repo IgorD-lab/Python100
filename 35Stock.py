@@ -76,6 +76,7 @@ class StockAPI:
 
 
 class NewsAPI:
+    '''Class to fetch news.'''
     def __init__(self, api_key):
         self.api_key = api_key
         self.endpoint = NEWS_ENDPOINT
