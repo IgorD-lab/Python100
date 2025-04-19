@@ -1,8 +1,8 @@
 import time
 from turtle import Screen
-from resources.PongGame.paddle import Paddle
-from resources.PongGame.ball import Ball
-from resources.PongGame.score import Scoreboard
+from paddle import Paddle
+from ball import Ball
+from score import Scoreboard
 
 screen = Screen()
 screen.bgcolor("black")
